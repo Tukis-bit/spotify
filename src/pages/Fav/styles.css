@@ -1,0 +1,119 @@
+.cabec{
+    display: flex;
+    
+    }
+    
+    
+    header{
+        
+        height: 100px;
+        
+        align-items: center;
+        display: flex;
+    
+        justify-content: space-between;
+    }
+    header>.cabec{
+    
+        justify-content: end;
+    
+        color: #000000;
+    }
+    
+    
+    
+    .logo{
+        height: 50px;
+        margin-left: 24px;
+    }
+    input{
+        
+        height: 25px;
+        width: 500px;
+        border-radius: 25px;
+        border-left: 1px,solid,white;
+    
+        color: bisque;
+        background-color: #a7a1a1;
+        
+        text-decoration:overline;
+        
+    }
+    
+    
+    nav{
+    
+        width: 150px;
+    }
+    
+    a{
+        text-decoration: none;
+        gap: 15px;
+    
+    }
+    .lin:hover{
+        color:blanchedalmond;
+    
+    
+    }
+    
+    body{
+        color: #ffffff;
+        background-color: #000000;
+    }
+    
+    .back{
+        align-items: center;
+        
+    
+    }
+    
+    
+    .tudin{
+        background-color: rgb(49, 47, 47);
+        
+        height: 500px;
+        border-radius: 10px;
+        margin: 15px;
+        padding: 15px;
+        
+    }
+    
+    .cart{
+        
+        display: flex;
+    }
+    .cartao{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+       text-align:left;
+        
+        padding: 12px;
+        margin: 15px;
+        border-radius: 10px;
+        height: 285px;
+        width: 13%;
+        }
+       
+        .cartao:hover{
+            background-color: rgb(70, 67, 67);
+            transform: scale(1.09) translateY(-3%);
+        }
+    
+        .cartao>p:hover{
+            text-decoration: underline;
+        }
+    
+        .cartao>h2:hover{
+            text-decoration: underline;
+        }
+    
+        .foto{  
+            border-radius: 15px;
+        width: 150px;
+        height: 150px;
+        }
+        
+    
+    

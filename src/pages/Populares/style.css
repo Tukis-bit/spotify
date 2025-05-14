@@ -10,11 +10,18 @@ header{
     
     align-items: center;
     display: flex;
+
+    justify-content: space-between;
 }
 header>.cabec{
 
     justify-content: end;
+
+    color: #000000;
 }
+
+
+
 .logo{
     height: 50px;
     margin-left: 24px;
@@ -33,13 +40,6 @@ input{
     
 }
 
-.barra{
-    display: flex;
-    justify-content: center;
-
-
-    width: 100%;
-}
 
 nav{
 
@@ -53,7 +53,7 @@ a{
 }
 .lin:hover{
     color:blanchedalmond;
-    
+
 
 }
 
@@ -62,16 +62,21 @@ body{
     background-color: #000000;
 }
 
+.back{
+    align-items: center;
+    
+
+}
+
 
 .tudin{
     background-color: rgb(49, 47, 47);
     
-    
-    border-radius: 10px;
-    padding: 12px;
-    margin-left: 40px;
     height: 500px;
-    width: 95%;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+    
 }
 
 .cart{
@@ -82,18 +87,32 @@ body{
     display: flex;
     flex-direction: column; 
     align-items: center;
-    text-align: left;
+   text-align:left;
     
-    margin: 15px;;
-    border-radius: 20px;
-    height: 15%;
-    width: 25%;
+    padding: 12px;
+    margin: 15px;
+    border-radius: 10px;
+    height: 285px;
+    width: 13%;
+    }
+   
+    .cartao:hover{
+        background-color: rgb(70, 67, 67);
+        transform: scale(1.09) translateY(-3%);
+    }
+
+    .cartao>p:hover{
+        text-decoration: underline;
+    }
+
+    .cartao>h2:hover{
+        text-decoration: underline;
     }
 
     .foto{  
         border-radius: 15px;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     }
     
 
